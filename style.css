@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500&display=swap');
+
+body {
+  font-family: "Raleway";
+  background: #e7effa;
+}
+
+span {
+  font-size: 30px;
+}
+
+.Round{
+  border-radius: 100px;
+  padding: 10px;
+  background: #ad03fc;
+  
+}
+
+#one{
+  background: #ff6f00;
+}
+
+#two{
+  background:#00ffb7;
+}
+
+#three{
+  background: #4800ff;
+}
+
+#four{
+  background: #c6a6d4;
+}
+
+
+.button_Primary{
+  position: relative;
+  padding: 14px;
+  border-radius: 0px;
+  outline: none;
+  border: none;
+  background: #4800ff;
+  color: white;
+  font-weight: 500;
+  margin-bottom: 30px;
+  -webkit-transition-duration: 0.4s; 
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.button_Primary:after {
+  content: "";
+  background: #cfbff8;
+  display: block;
+  position: absolute;
+  padding-top: 300%;
+  padding-left: 350%;
+  margin-left: -20px!important;
+  margin-top: -120%;
+  opacity: 0;
+  transition: all 0.8s
+}
+
+.button_Primary:active:after {
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  transition: 0s
+}
+
+#camera,
+#result {
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.4);
+  background: white;
+  width: 350px;
+  height: 300px;
+}
+
+#result_emotion_name,
+#result_emotion_name2 {
+  color: black;
+}
+
+.emotion_name {
+  font-size: 40px;
+}
+
+.emoji {
+  font-size: 48px;
+}
